@@ -1,0 +1,22 @@
+
+[build-system]
+requires = ["setuptools>=40", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["rela"]
+
+[project]
+name = "rela"
+version = "0.1.0"
+authors = [ {name="Roger D. Serwy", email="roger.serwy@gmail.com"}, ]
+description = "rela.tive imports from `__main__` and some test helpers"
+readme = "README.md"
+license = { text="NCSA"}
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: University of Illinois/NCSA Open Source License",
+]
+urls = {"Homepage" = "https://github.com/serwy/rela"}
+
